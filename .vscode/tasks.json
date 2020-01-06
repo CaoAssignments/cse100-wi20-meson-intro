@@ -1,0 +1,25 @@
+{
+    "tasks": [
+        {
+            "type": "shell",
+            "label": "ninja build main",
+            "command": "ninja",
+            "args": [
+                "-C",
+                "build",
+                "test/bst/main.cpp.executable"
+            ],
+        },
+        {
+            "type": "shell",
+            "label": "ninja build active file",
+            "command": "ninja",
+            "args": [
+                "-C",
+                "build",
+                "${relativeFile}.executable"
+            ],
+        }
+    ],
+    "version": "2.0.0"
+}

@@ -1,0 +1,6 @@
+# We'll use defaults from the Google style guide, but with 4 columns indentation.
+BasedOnStyle: Google
+IndentWidth: 4
+DerivePointerAlignment: false
+PointerAlignment: Left
+AccessModifierOffset: -2

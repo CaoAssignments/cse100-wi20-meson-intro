@@ -1,0 +1,17 @@
+{
+    "name": "C++",
+    "extensions": [
+        "ms-vscode.cpptools",
+        "mrmomo.meson-build",
+        "eamodio.gitlens"
+    ],
+    "settings": {
+        "terminal.integrated.shell.linux": "/bin/bash"
+    },
+    "dockerComposeFile": [
+        "docker-compose.yml"
+    ],
+    "service": "web",
+    "workspaceFolder": "/Code/cse100_discussion1",
+    "shutdownAction": "stopCompose"
+}
